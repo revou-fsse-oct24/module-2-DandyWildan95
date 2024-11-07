@@ -1,41 +1,23 @@
 # Modul 2 Dandy Wildan
 
-## Overview
-
-ini merupakan simple html website yang saya buat
-
-## Features
-
-- **Heading**: nama brand bisnis saya 
-- **Paragraph**: menjelaskan secara singkat mengenai profile bisnis saya
-- **Image**: Konten gambar toko saya
-
 # Dens Tobacco & Cigar Website
 
-This project is a simple, responsive website for **Dens Tobacco & Cigar**, a shop established in 2020. The site provides essential information about the shop, including a brief overview of its offerings and a contact form for customer inquiries.
+**Dens Tobacco & Cigar** is a simple and modern website built to represent a tobacco and cigar shop. The website is designed with a focus on a smooth user experience with stylish animations, transitions, and a responsive layout to ensure it works well on both desktop and mobile devices.
 
-## Features
+### Key Features:
+- **Sticky Header**: The header stays at the top of the page while scrolling, providing easy access to navigation links.
+- **Animated Background**: The header background color changes smoothly every 5 seconds using CSS keyframes.
+- **Responsive Design**: The layout adjusts dynamically based on screen size, ensuring a great experience on mobile, tablet, and desktop.
+- **Interactive Navigation**: Navigation links have a smooth hover effect, providing a user-friendly interface.
+- **Button Hover Effects**: Buttons subtly enlarge and change color when hovered, making them more interactive.
+- **Custom Image Handling**: The homepage section adapts to different screen sizes by serving different image sizes (using the `<picture>` tag) to optimize load time.
 
-- **Responsive Design**: The layout adapts seamlessly to different screen sizes, providing an optimal viewing experience on both desktop and mobile devices.
-- **Sticky Navigation Header**: The header remains fixed at the top of the page, ensuring easy access to navigation links while scrolling.
-- **Flexbox Layout**: Utilizes CSS Flexbox for a modern layout that efficiently arranges the content and sidebar sections.
-- **Contact Form**: Visitors can easily reach out through a contact form, selecting their preferred contact method and opting to subscribe to the newsletter.
+### Technologies Used:
+- **HTML5** for structure and content.
+- **CSS3** for styling, animations, and responsiveness.
+- **Google Fonts** for modern and readable typography (Roboto font).
+  
+### How to Run:
 
-## Technologies Used
-
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the webpage, including Flexbox for layout and responsive design.
-
-## File Structure
-
-- `index.html`: The main HTML file containing the structure and styles for the website.
-- `img/`: A folder to store images used on the site (e.g., the shop logo).
-
-## Getting Started
-
-To view the website:
-
-1. follow this link https://revou-fsse-oct24.github.io/DandyWildan95/
-
-
+1. please check this link https://revou-fsse-oct24.github.io/module-2-DandyWildan95/
 
