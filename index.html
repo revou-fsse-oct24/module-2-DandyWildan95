@@ -11,10 +11,10 @@
     <style>
         /* General styles */
         body {
-            font-family: 'Roboto', Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif; /* Apply Roboto font */
             line-height: 1.6;
             background-color: yellow; /* Yellow background */
-            background-image: url('asset/img/Dens-Tobacco.jpg'); /* Path to your background image */
+            background-image: url('img/Dens%20Tobacco-large.jpg'); /* Path to your background image */
             background-size: cover; /* Make sure the background image covers the entire viewport */
             background-position: center; /* Center the background image */
             background-attachment: fixed; /* Make the background fixed during scroll */
@@ -161,7 +161,12 @@
         <!-- Home section with a responsive image -->
         <section id="home" class="content image-section">
             <picture>
-                <img src="img/Dens Tobacco-small.jpg" alt="Dens Tobacco" style="width: 100%; height: auto;">
+                <!-- For smaller screens (mobile) -->
+                <source srcset="img/Dens%20Tobacco-small.jpg" media="(max-width: 600px)">
+                <!-- For medium screens (tablets) -->
+                <source srcset="img/Dens%20Tobacco-medium.jpg" media="(max-width: 1024px)">
+                <!-- Default (large screen, desktop) -->
+                <img src="img/Dens%20Tobacco-large.jpg" alt="Dens Tobacco" style="width: 100%; height: auto;">
             </picture>
         </section>
 
@@ -212,7 +217,6 @@
 
 </body>
 </html>
-
         
 
       
