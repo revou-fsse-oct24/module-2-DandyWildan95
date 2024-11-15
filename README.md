@@ -16,6 +16,12 @@
 - **HTML5** for structure and content.
 - **CSS3** for styling, animations, and responsiveness.
 - **Google Fonts** for a modern and readable typography (Roboto font).
+
+### How i create custom domain
+
+I used vercel to create custom domain and buy from niagahoster
+
+![alttext](image.png)
   
 ### How to Run:
 
