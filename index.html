@@ -14,12 +14,16 @@
             font-family: 'Roboto', Arial, sans-serif; /* Apply Roboto font */
             line-height: 1.6;
             background-color: yellow; /* Yellow background */
-            background-image: url('img/Dens%20Tobacco-large.jpg'); /* Path to your background image */
+            background-image: url('img/denstobacco_large.jpg'); /* Path to your background image */
             background-size: cover; /* Make sure the background image covers the entire viewport */
             background-position: center; /* Center the background image */
             background-attachment: fixed; /* Make the background fixed during scroll */
             margin: 0;
         }
+         /* Responsive background images */ 
+         @media (max-width: 1024px) 
+         { body { background-image: url('img/denstobacco_medium.jpg'); } 
+        } @media (max-width: 600px) { body { background-image: url('img/denstobacco_small.jpg'); } }
 
         /* Animation for header background color change */
         @keyframes headerColorChange {
@@ -162,11 +166,11 @@
         <section id="home" class="content image-section">
             <picture>
                 <!-- For smaller screens (mobile) -->
-                <source srcset="img/Dens%20Tobacco-small.jpg" media="(max-width: 600px)">
+                <source srcset="img/denstobacco_small.jpg" media="(max-width: 600px)">
                 <!-- For medium screens (tablets) -->
-                <source srcset="img/Dens%20Tobacco-medium.jpg" media="(max-width: 1024px)">
+                <source srcset="img/denstobacco_medium.jpg" media="(max-width: 1024px)">
                 <!-- Default (large screen, desktop) -->
-                <img src="img/Dens Tobacco-large.jpg" alt="Dens Tobacco" style="width: 100%; height: auto;">
+                <img src="img/denstobacco_large.jpg" alt="Dens Tobacco" style="width: 100%; height: auto;">
             </picture>
         </section>
 
