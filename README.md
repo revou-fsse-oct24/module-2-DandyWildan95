@@ -110,6 +110,11 @@ After deploying, you can connect your custom domain:
 
 4. **Verify and Confirm**:
    - Once the DNS settings propagate, Vercel will verify the domain and it will be linked to your project.
+     
+## Link to Custom Domain
+
+[Link Text](https://toko-denstembakau.shop/)
+
 
 ## Features of Dens Tobacco & Cigar Store
 
